@@ -4,8 +4,8 @@ It is only a proof of concept, do not use in production!
 
 # Build
 
-`docker build . -t bloodhound-autoprocess`
+`docker build . -t bh-auto`
 
 # Run
 
-`docker run --rm -v $(pwd)/data:/app/data  --name bh bloodhound-autoprocess`
+`Docker run --rm -v $(pwd)/data:/app/data --network host --name bh-auto bloodhound-autoprocess`
