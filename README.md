@@ -8,4 +8,4 @@ It is only a proof of concept, do not use in production!
 
 # Run
 
-`Docker run --rm -v $(pwd)/data:/app/data --network host --name bh-auto bloodhound-autoprocess`
+`Docker run --rm -v $(pwd)/data:/app/data --network host --name bh-auto bh-auto`
